@@ -9,10 +9,10 @@
 
 ### Jax Installation (CPU)
 
-To use a CPU-only powered jax, create a `conda` virtual environment containig `python` and `jax`:
+To use a CPU-only powered jax, create a `conda` virtual environment containing `python` and `jax`:
 ```bash
-conda create -n jax-tutorial python=3.9 numpy scipy jax && conda activate jax-tutorial
-pip install flax numpyro
+conda create -n jax-tutorial python=3.9 && conda activate jax-tutorial
+conda install -c conda-forge numpy scipy jax flax numpyro
 ```
 
 ### Jax Installation (GPU)
@@ -55,9 +55,9 @@ export LD_LIBRARY_PATH=/path/to/cuda/dir/lib64;  # YMMV: might be lib and not li
 
 ### Testing your installation
 
-To test that your jax environment is properly setup, a convenience script is provided as part of this tutorial. Run:
+To test that your jax environment is properly setup, a convenience script is provided as part of this tutorial. From the root directory of this repository run:
 ```bash
-python -m pip install jax-utils
+python -m pip install ./jax-utils
 # if on CPU:
 python -m jax_utils.test_jax_installation
 # if on GPU:

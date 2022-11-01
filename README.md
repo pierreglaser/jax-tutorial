@@ -1,3 +1,11 @@
+# JAX tutorial
+
+<a href="https://colab.research.google.com/github/pierreglaser/jax-tutorial/blob/main/tutorial.ipynb">
+    <img alt="Open in Colab" src="https://colab.research.google.com/assets/colab-badge.svg" style="vertical-align:text-bottom">
+</a>
+
+The tutorial notebook can be opened and run interactively on [Google Colab](https://colab.research.google.com/) from the badge above. The corresponding notebook with solutions to the exercises can also be run on Google Colab from [this link](https://colab.research.google.com/github/pierreglaser/jax-tutorial/blob/main/tutorial_with_solutions.ipynb). Alternatively follow the instructions below to set up a local Python environment to run the notebook from.
+
 ## Installation Instructions
 
 
